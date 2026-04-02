@@ -1,0 +1,7 @@
+{
+  "name": "Dev Environment",
+  "image": "ghcr.io/ilyaro/devenv_amazonlinux_2023:latest",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "zsh"
+  }
+}
