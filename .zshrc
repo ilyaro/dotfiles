@@ -15,8 +15,7 @@ alias lt='du -sh * | sort -h'
 alias mnt='mount | grep -E ^/dev | column -t'
 
 alias g=git
-alias k=kubectl
-"~/.oh-my-zsh/custom/.bash_aliases" [noeol] 58L, 4737B                                                                      1,1           Top
+alias k=kubectl                                                                  
 alias g=git
 alias k=kubectl
 alias t=terraform
