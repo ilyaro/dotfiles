@@ -1,0 +1,45 @@
+# Secrets & credentials - NEVER commit these
+*.pem
+*.key
+*_history
+.zsh_history
+.bash_history
+.node_repl_history
+.python_history
+.lesshst
+.wget-hsts
+.sudo_as_admin_successful
+
+# SSH & GPG
+.ssh/
+.gnupg/
+
+# 1Password / secrets managers
+.op/
+.config/op/
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor state
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Package / tool caches
+.npm/
+.cache/
+.local/
+__pycache__/
+node_modules/
+
+# Oh My Zsh (installed at runtime, not committed)
+.oh-my-zsh/
+
+# Compiled / generated
+*.pyc
+*.o
